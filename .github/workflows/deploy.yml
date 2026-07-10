@@ -24,7 +24,7 @@ jobs:
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v4
         with:
-          role-to-assume: arn:aws:iam::992382778486:role/github-actions-deploy-role
+          role-to-assume: arn:aws:iam::992382778486:role/astro-cicd-pipeline
           aws-region: us-east-1
 
       - name: Verify identity
